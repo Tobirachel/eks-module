@@ -1,3 +1,9 @@
+# MY AWESOME TERRAFORM MODULE TO PROVISION EKS CLUSTER WITH CUSTOM NETWORKING  ----->
+
+# Sample usage:
+
+~~~ 
+
 module "eks-module" {
   source         = "github.com/tobirachel/eks-module"
   region         = "Enter your Providers region here"
@@ -17,3 +23,5 @@ module "eks-module" {
   capacity_type  = "ON_DEMAND"
 
 }
+
+~~~
